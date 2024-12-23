@@ -1,0 +1,87 @@
+/* Background Image Section */
+.background-image {
+    background: linear-gradient(to bottom, #90ee90, #add8e6);/* Light blue background */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+}
+
+/* Main Content Container */
+.afg {
+    width: 400px; /* Adjust width as needed */
+    padding: 20px; /* Add padding for spacing */
+    background-color: white; /* Add white background for clarity */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center text inside the container */
+}
+
+/* Header Styling */
+.xyz {
+    color: blue;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* Input Field Styling */
+.bcd {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: blue;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: darkblue;
+}
+
+/* List and List Item Styling */
+.list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.list-item p {
+    margin: 0;
+}
+
+.list-item button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: red;
+    cursor: pointer;
+}
+
+.list-item button:hover {
+    color: darkred;
+}
